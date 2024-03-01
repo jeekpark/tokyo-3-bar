@@ -1,0 +1,37 @@
+{
+  "name": "tokyo-3-bar",
+  "displayName": "Tokyo 3 Bar",
+  "description": "VSC Dark Theme for C++",
+  "version": "0.0.1",
+  "publisher": "jeekpark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeekpark/tokyo-3-bar.git"
+  },
+  "icon": "icon_bar.png",
+  "galleryBanner": {
+		"color": "#1f2335",
+		"theme": "dark"
+	},
+  "keywords": [
+    "theme",
+    "dark theme",
+    "c++ theme",
+    "tokyo theme"
+  ],
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo 3 Bar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tokyo 3 Bar-color-theme.json"
+      }
+    ]
+  }
+}
